@@ -1,0 +1,23 @@
+{
+  "name": "chai-aur-code-backend",
+  "version": "1.0.0",
+  "description": "a basic start of backend learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvadhumal/Chai-aur-Code-Backend.git"
+  },
+  "keywords": [
+    "node",
+    "chaiaurcode"
+  ],
+  "author": "atharvadhumal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvadhumal/Chai-aur-Code-Backend/issues"
+  },
+  "homepage": "https://github.com/atharvadhumal/Chai-aur-Code-Backend#readme"
+}
