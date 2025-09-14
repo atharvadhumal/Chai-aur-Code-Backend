@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/atharvadhumal/Chai-aur-Code-Backend/issues"
   },
-  "homepage": "https://github.com/atharvadhumal/Chai-aur-Code-Backend#readme"
+  "homepage": "https://github.com/atharvadhumal/Chai-aur-Code-Backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
 }
