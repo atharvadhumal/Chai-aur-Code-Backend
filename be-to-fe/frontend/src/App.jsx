@@ -8,15 +8,15 @@ function App  () {
 
   const [jokes, setJokes] = useState([])
 
-  useEffect(() => {
-    axios.get('/api/jokes')
-    .then((response) => {
-      setJokes(response.data)
-    })
-    .catch((error) => {
-      console.log(error)
-    })
-  }, [])
+    useEffect(() => {
+      axios.get('/api/jokes')
+      .then((response) => {
+        setJokes(response.data)
+      })
+      .catch((error) => {
+        console.log(error)
+      })
+    }, [])
 
   return (
     <>
